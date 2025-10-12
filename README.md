@@ -1,5 +1,5 @@
 # 🌍 TerraGuard AI - Land Degradation Monitoring & Management System
-> **A real-time AI-powered platform for monitoring land health, assessing degradation risks, and generating actionable recommendations for sustainable land management in Africa.**
+ **A real-time AI-powered platform for monitoring land health, assessing degradation risks, and generating actionable recommendations for sustainable land management in Africa.**
 
 ## 📋 Table of Contents
 
