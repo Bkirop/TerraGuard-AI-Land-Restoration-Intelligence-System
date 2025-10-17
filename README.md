@@ -112,8 +112,8 @@ TerraGuard AI provides:
 - Custom rule-based recommendation engine (fallback)
 
 ### Deployment
-- **Vercel** - Frontend hosting
-- **Render/Railway** - Backend hosting
+- **Render** - Frontend hosting
+- **Render** - Backend hosting
 
 ---
 
@@ -180,7 +180,7 @@ TerraGuard AI provides:
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/terraguard-ai.git
+git clone https://github.com/Bkirop/TerraGuard-AI-Land-Restoration-Intelligence-System .git
 cd terraguard-ai
 ```
 
@@ -584,7 +584,7 @@ yarn test
 
 ## 📄 License
 
-This project is licensed under the MIT License.
+This project is available for learning purposes.
 
 ---
 
@@ -607,7 +607,7 @@ This project is licensed under the MIT License.
 
 ## 📞 Contact & Support
 
-- **Email:** briankirop@gmail.com or wacukakaru@gmail.com
+- **Email:** briankirop@gmail.com or wacuka.karu@gmail.com
 
 ---
 
