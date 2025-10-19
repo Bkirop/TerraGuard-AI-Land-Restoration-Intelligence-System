@@ -514,34 +514,61 @@ Check API health status.
 Visit `http://localhost:8000/docs` for interactive Swagger documentation.
 
 ---
+## 🌐 Deployment Guide
 
-## 🌐 Deployment
+### 🚀 Live Application
+**Access the live application:** [https://terraguard-ai-land-restoration-j8y7.onrender.com/](https://terraguard-ai-land-restoration-j8y7.onrender.com/)
+
+---
 
 ### Quick Deploy (Recommended)
 
 #### Backend → Render
 
-1. Push code to GitHub
-2. Create account at [render.com](https://render.com)
-3. Click "New +" → "Web Service"
-4. Connect repository, select `backend` folder
-5. Add environment variables
-6. Deploy!
+1. **Prepare Repository**
+   - Push your code to GitHub
+   - Ensure `backend` folder structure is correct
 
-**URL:** `https://terraguard-api.onrender.com`
+2. **Setup Render**
+   - Create account at [render.com](https://render.com)
+   - Click **"New +"** → **"Web Service"**
+   - Connect your GitHub repository
+   - Select the `backend` folder as root directory
 
-#### Frontend → Vercel
+3. **Configure Environment**
+   - Add required environment variables:
+     - `DATABASE_URL`
+     - `JWT_SECRET`
+     - `API_KEYS` (if applicable)
+   
+4. **Deploy**
+   - Click "Create Web Service"
+   - Wait for build to complete
 
-1. Create account at [vercel.com](https://vercel.com)
-2. Click "New Project"
-3. Import repository, select `frontend` folder
-4. Add environment variables
-5. Deploy!
-
-**URL:** `https://terraguard.vercel.app`
+**Live Backend URL:** `https://terraguard-api.onrender.com`
 
 ---
 
+#### Frontend → Vercel
+
+1. **Setup Vercel**
+   - Create account at [vercel.com](https://vercel.com)
+   - Click **"New Project"**
+   - Import your GitHub repository
+   - Select the `frontend` folder as root directory
+
+2. **Configure Environment**
+   - Add environment variables:
+     - `VITE_API_URL=https://terraguard-api.onrender.com`
+     - Any other frontend configuration variables
+
+3. **Deploy**
+   - Click "Deploy"
+   - Vercel will automatically build and deploy
+
+**Live Frontend URL:** `https://terraguard.vercel.app`
+
+---
 ## 🤝 Contributing
 
 We welcome contributions! 
