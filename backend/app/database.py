@@ -10,8 +10,7 @@ load_dotenv()
 
 # Supabase configuration
 SUPABASE_URL = os.getenv("SUPABASE_URL", "")
-SUPABASE_ANON_KEY = os.getenv("SUPABASE_ANON_KEY", "")
-
+SUPABASE_ANON_KEY = os.getenv("SUPABASE_KEY", "")
 # Global client instance
 _supabase_client: Optional[Client] = None
 
